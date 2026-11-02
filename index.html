@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#181714">
+    <title>The Missing Issue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grain"></div>
+    <div class="vignette"></div>
+    <header class="masthead"><button class="wordmark" id="home">THE MISSING <span>ISSUE</span></button><span
+            class="header-center">PRIVATE VIEWING · PARIS · MM</span>
+        <div class="header-tools"><button id="audio">♫ AMBIENCE OFF</button><button id="journal">☷ CASE FILE <span
+                    id="count">00</span></button></div>
+    </header>
+    <main class="stage">
+        <div class="workspace" id="workspace">
+            <section class="prologue" id="prologue" aria-label="Story background">
+                <div class="prologue-photo" aria-hidden="true"></div>
+                <div class="prologue-shade"></div>
+                <div class="prologue-copy"><span class="overline">PARIS, 17 NOVEMBER 2000 · A PRIVATE FASHION
+                        EXHIBITION</span><span class="prologue-rule"></span>
+                    <p class="prologue-chapter">THE STORY SO FAR / 00</p>
+                    <h1>Every cover<br>has a <em>story.</em><br>Some are <i>erased.</i></h1>
+                    <p class="prologue-lead">For fifty years, AUREL shaped the way the world saw fashion. Its
+                        anniversary exhibition promises an exclusive look behind the covers — original sketches,
+                        editorial letters, and photographs never shown to the public.</p>
+                    <p class="prologue-lead">You are a lifelong fashion enthusiast, one of just twelve guests invited to
+                        the archive's private opening. But an entire anniversary cover has vanished from the collection.
+                        Someone left a note in its place: <em>“Follow the credits, not the clothes.”</em></p>
+                    <div class="prologue-bottom"><button class="primary" id="prologue-next">OPEN YOUR INVITATION
+                            <span>↗</span></button><span>CHAPTER 00 / THE INVITATION</span></div>
+                </div>
+                <div class="prologue-side">AUREL / THE MISSING ISSUE <span>MM · 2000</span></div>
+            </section>
+            <div class="intro hidden" id="intro">
+                <div class="intro-copy"><span class="overline">AN INVITATION · 17 NOVEMBER 2000</span>
+                    <p class="salutation">Dear invited guest,</p>
+                    <h1>Some stories<br>were <em>never</em><br>published.</h1>
+                    <p>You are among twelve fashion enthusiasts selected for a private preview of the AUREL
+                        fiftieth-anniversary exhibition. Our catalogue contains fifty years of silhouettes, faces and
+                        celebrated names. Yet the final cover has been removed from every record. At 8:17 this morning,
+                        I found a note beneath the empty display: <em>“Follow the credits, not the clothes.”</em> I need
+                        someone who knows how to look closer.</p>
+                    <p class="signature">— Clara Bennett, Junior Archivist · 17 November 2000</p><button class="primary"
+                        id="enter">ACCEPT INVITATION <span>↗</span></button>
+                    <p class="micro">A FICTIONAL INTERACTIVE INVESTIGATION · HEADPHONES OPTIONAL</p>
+                </div>
+                <div class="hero-art">
+                    <div class="hero-photo" id="hero-photo"></div>
+                    <div class="hero-label"><span>ARCHIVE /
+                            00—50</span><strong>THE<br>MISSING<br>ISSUE.</strong><small>FIFTY YEARS. ONE FORGOTTEN
+                            NAME.</small></div>
+                    <div class="hero-stamp">CONFIDENTIAL<br>ACCESS GRANTED</div>
+                </div>
+            </div>
+            <div class="archive hidden" id="archive">
+                <div class="archive-head">
+                    <div><span class="overline">EXHIBITION 01 / THE PRIVATE COLLECTION</span>
+                        <h2>The <em>archive.</em></h2>
+                        <p>The private viewing has begun. The exhibition has five published collections and one empty
+                            display. Study the fashion, inspect the editor’s annotations, and compare the evidence. Open
+                            the records in any order.</p>
+                    </div>
+                    <div class="archive-status"><span>INVESTIGATION STATUS</span><strong id="progress">00 /
+                            05</strong><small>DOCUMENTS RECOVERED</small></div>
+                </div>
+                <div class="desk">
+                    <div class="desk-left">
+                        <div class="timeline-title">CHOOSE A FILE <span>1950—1999</span></div>
+                        <div class="file-stack" id="file-stack"></div>
+                        <div class="small-instruction">↳ SELECT ANY FOLDER TO EXAMINE ITS CONTENTS</div>
+                    </div>
+                    <div class="desk-right">
+                        <div class="evidence-frame" id="evidence-frame">
+                            <div class="frame-top"><span>DISPLAY CASE / 006</span><span>UNCATALOGUED</span></div>
+                            <div class="empty-frame"><span class="missing-cross">×</span><span
+                                    class="missing-heading">THE SIXTH COVER</span><span class="missing-copy">Approved
+                                    for print. Removed before publication.</span><button id="reveal-entry"
+                                    class="outline">EXAMINE THE EMPTY FRAME ↗</button></div>
+                            <div class="frame-bottom">AUREL ANNIVERSARY EDITION · 2000</div>
+                        </div>
+                        <div class="curator-note"><span>CURATOR'S NOTE / 01</span>
+                            <p>“The clothes changed every decade. The handwriting did not.”</p><small>— An unsigned note
+                                found inside the archive.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="era hidden" id="era">
+                <div class="era-top"><button id="back" class="text-button">← RETURN TO ARCHIVE</button><span
+                        id="era-number">ARCHIVE / 01</span><button id="next" class="text-button">NEXT FILE →</button>
+                </div>
+                <div class="era-layout">
+                    <div class="era-photo">
+                        <div id="era-img" class="era-img"></div>
+                        <div class="photo-stamp">AUREL<br>COLLECTION</div><span id="photo-caption"
+                            class="photo-caption"></span>
+                    </div>
+                    <div class="era-content"><span id="era-kicker" class="overline"></span>
+                        <h2 id="era-title"></h2>
+                        <p id="era-desc" class="era-desc"></p>
+                        <div class="magazine-banner"><span>THE AUREL EDIT</span><span id="issue-no">ISSUE Nº
+                                01</span><span>STYLE / BEAUTY / CULTURE</span></div>
+                        <div class="fashion-facts">
+                            <div><span>01 / THE SILHOUETTE</span>
+                                <p id="look"></p>
+                            </div>
+                            <div><span>02 / THE BEAUTY PAGE</span>
+                                <p id="beauty"></p>
+                            </div>
+                            <div><span>03 / CULTURAL FOOTNOTE</span>
+                                <p id="fact"></p>
+                            </div>
+                        </div>
+                        <div class="editorial-quote" id="editorial-quote"></div>
+                        <div class="artifact">
+                            <div class="artifact-head"><span>PRIVATE RECORD · INTERACTIVE DOCUMENT</span><span>↘</span>
+                            </div>
+                            <div class="artifact-instruction">EDITOR’S PRIVATE COPY · INTERACT WITH THE OBJECT BELOW
+                            </div>
+                            <div id="artifact-body"></div>
+                        </div>
+                        <div class="era-bottom"><span id="era-collected"></span><button class="outline"
+                                id="era-journal">VIEW CASE FILE ↗</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside id="drawer" class="drawer" aria-hidden="true">
+        <div class="drawer-head">
+            <div><span class="overline">CONFIDENTIAL / CASE NO. 005</span>
+                <h2>Investigator's<br><em>notebook.</em></h2>
+            </div><button id="close-drawer" aria-label="Close notebook">×</button>
+        </div>
+        <p class="drawer-intro">The records tell a different story than the published issues. Collect the evidence to
+            reveal what was erased.</p>
+        <div id="journal-list"></div>
+        <div class="drawer-foot">AUREL / ARCHIVES DEPARTMENT · 2000</div>
+    </aside>
+    <div id="overlay" class="overlay hidden">
+        <div class="modal"><button id="close-modal" class="modal-close">×</button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+    <div id="shade" class="shade hidden"></div>
+    <div id="toast" class="toast" role="status"></div>
+    <div id="reveal-stage" class="reveal-stage hidden" aria-live="polite">
+        <div class="reveal-stage-inner" id="reveal-stage-inner"></div>
+    </div>
+    <footer><span>© AUREL ARCHIVES · AN INTERACTIVE FICTION</span><span>THE MISSING ISSUE / 2000</span><button
+            id="reset">RESET INVESTIGATION ↺</button></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
